@@ -1,1 +1,1 @@
-# Factroy-IO---color-sorter-sample
+# Factory IO - Color Sorter
