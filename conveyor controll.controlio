@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlIO Version="v1.0.0">
+  <Properties SyncReset="true" CycleTime="10" />
+  <Diagram DiagramPosition="-686,-110" DiagramScale="0.556837418177559">
+    <NodeData Key="2" Location="140 -110" NodeType="OutputBit" MemMapAddress="2" />
+    <NodeData Key="3" Location="140 -10" NodeType="OutputBit" MemMapAddress="3" />
+    <NodeData Key="4" Location="140 95" NodeType="OutputBit" MemMapAddress="4" />
+    <NodeData Key="5" Location="135 185" NodeType="OutputBit" MemMapAddress="0" NodeDescription="Roller Conveyor (4m) 1" />
+    <NodeData Key="6" Location="115 280" NodeType="OutputBit" MemMapAddress="1" />
+    <NodeData Key="7" Location="-165 15" NodeType="BooleanSource" ButtonChecked="True" />
+    <NodeData Key="9" Location="-400 90" NodeType="OutputBit" MemMapAddress="5" />
+    <NodeData Key="10" Location="-620 95" NodeType="InputBit" MemMapAddress="2" />
+    <NodeData Key="8" Location="-385 235" NodeType="OutputBit" MemMapAddress="7" />
+    <NodeData Key="11" Location="-630 245" NodeType="InputBit" MemMapAddress="5" />
+    <LinkData From="7" To="2" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="7" To="3" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="7" To="4" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="7" To="5" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="7" To="6" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="10" To="9" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="11" To="8" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+  </Diagram>
+</ControlIO>
